@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Movie from './components/firebase';
+import Firebase from './components/firebase/firebase';
+
 
 
 const App = () => {
   return (
     <div className="App">
-      <Movie />
+      <Firebase />
     </div>
   );
 }

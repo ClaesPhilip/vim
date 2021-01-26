@@ -9,7 +9,7 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
-import Jon from '../img/jon.jpg';
+import Jon from '../../img/jon.jpg';
 
 firebase.initializeApp({
     apiKey: "AIzaSyDYwp2Pk4EnAG2eISYI2kEBKOYEIj865sg",
